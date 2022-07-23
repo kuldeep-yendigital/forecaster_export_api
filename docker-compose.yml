@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  api:
+    build: .
+    command: npm run start
+    container_name: forecaster-export-api
+    environment:
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+      - ENVIRONMENT=${ENVIRONMENT}
+    volumes:
+      - .:/var/www/forecaster-export-api
+      - /var/www/forecaster-export-api/node_modules
+    ports:
+      - "3001:3001"
+      - "5858:5858"

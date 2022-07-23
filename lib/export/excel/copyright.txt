@@ -1,0 +1,18 @@
+
+Date: {date}
+Omdia, Informa Tech
+Copyright Informa {year}. All rights reserved
+
+The contents of this product are protected by international copyright laws, database rights and other intellectual property rights.
+The owner of these rights is Informa Telecoms and Media Limited, our affiliates or other third party licensors. All product and
+company names and logos contained within or appearing on this product are the trademarks, service marks or trading names of their
+respective owners, including Informa Telecoms and Media Limited. This product may not be copied, reproduced, distributed or transmitted
+in any form or by any means without the prior permission of Informa Telecoms and Media Limited.
+
+Whilst reasonable efforts have been made to ensure that the information and content of this product was correct as at the date of first
+publication, neither Informa Telecoms and Media Limited nor any person engaged or employed by Informa Telecoms and Media Limited accepts
+any liability for any errors, omissions or other inaccuracies. Readers should independently verify any facts and figures as no liability
+can be accepted in this regard - readers assume full responsibility and risk accordingly for their use of such information and content.
+
+Any views and/or opinions expressed in this product by individual authors or contributors are their personal views and/or opinions and
+do not necessarily reflect the views and/or opinions of Informa Telecoms and Media Limited.

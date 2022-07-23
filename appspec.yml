@@ -1,0 +1,12 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/forecaster-export-api
+hooks:
+  BeforeInstall:
+    - location: ./beforeInstall.sh
+  ApplicationStart:
+    - location: ./start.sh
+  ApplicationStop:
+    - location: ./stop.sh

@@ -1,0 +1,9 @@
+node_modules/
+
+# logs
+npm-debug.log
+
+# environment setup
+.env
+.vscode
+.idea

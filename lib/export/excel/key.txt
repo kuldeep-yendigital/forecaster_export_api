@@ -1,0 +1,6 @@
+
+Key
+Black = Collected from publicly available source (example: from an Annual Report)
+Blue = Market intelligence
+Red = Estimated, computed based on Omdia's algorithm
+Green = Omdia forecast

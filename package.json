@@ -1,0 +1,54 @@
+{
+  "name": "forecaster-export-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "PORT=3001 nodemon --inspect=0.0.0.0:5858 index.js",
+    "dev": "PORT=3001 nodemon server",
+    "test": "mocha routes/**/*.spec.js lib/**/*.spec.js lib/**/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/itmebusiness/forecaster-export-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/itmebusiness/forecaster-export-api#readme",
+  "dependencies": {
+    "aws-sdk": "^2.420.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "duplexer2": "^0.1.4",
+    "exceljs": "^1.7.0",
+    "express": "^4.16.4",
+    "forecaster-common": "git+https://bitbucket.org/itmebusiness/forecaster-common.git#2.0.0",
+    "json2csv-stream": "^0.1.4",
+    "jsonschema": "^1.2.4",
+    "lodash": "^4.17.11",
+    "memfs": "^3.4.7",
+    "minimist": "^1.2.0",
+    "moment": "^2.24.0",
+    "mysql": "^2.16.0",
+    "node-excel-export": "^1.4.4",
+    "node-fetch": "^2.6.0",
+    "raven": "^2.6.4",
+    "replacestream": "^4.0.3",
+    "request": "^2.88.0",
+    "rxjs": "^5.5.12",
+    "rxjs-stream": "~1.0.4",
+    "socket.io": "^2.2.0",
+    "stream-combiner2": "^1.1.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.10",
+    "proxyquire": "^2.1.0",
+    "supertest": "^3.4.2"
+  }
+}

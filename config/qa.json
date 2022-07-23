@@ -1,0 +1,44 @@
+{
+  "memsql": {
+    "host": "10.1.176.10",
+    "user": "admin",
+    "password": "Forecast2018#",
+    "database": "Forecast_InMem",
+    "logQueries": true
+  },
+  "logLevel": "error",
+  "auth": {
+    "allowedIssuers": [
+      "https://ovumforecaster.eu.auth0.com/"
+    ],
+    "audience": "https://api.forecaster.qa.tmt.informa-labs.com/",
+    "jwksUri": "https://ovumforecaster.eu.auth0.com/.well-known/jwks.json",
+    "auth0Uri": "https://ovumforecaster.eu.auth0.com",
+    "requiredScopes": [
+      "openid"
+    ],
+    "namespace": "https://api.ovumforecaster.com"
+  },
+  "export": {
+    "s3Bucket": "tmt-qa-exports",
+    "s3BucketAllExports": "tmt-qa-exports-all",
+    "partSize": 5242881,
+    "filePrefix": "Forecaster-"
+  },
+  "cloudwatch": {
+    "logGroupName": "tmt-qa-tmt-export",
+    "cloudWatchLogsOptions": {
+      "region": "eu-west-1"
+    }
+  },
+  "monitoring": {
+    "env": "qa",
+    "componentName": "tmt-export",
+    "plugins": [{
+      "name": "memory"
+    }]
+  },
+  "sentry": {
+    "ravenDSN": "https://01d2472e30da4c0c8474d29702db7457@sentry.io/1209224"
+  }
+}
